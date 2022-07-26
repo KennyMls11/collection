@@ -1,10 +1,38 @@
 import domain.Employee;
+import domain.Palabra;
+import domain.PalabraNoEsp;
 import service.AppCompany;
+import service.Diccionario;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class App {
+    public static void main(String[] args) {
+        /*Diccionario diccionarioEspañol= new Diccionario("español");
+        diccionarioEspañol.ingresarPalabra(new Palabra("Programacion", "accion y efecto de programar", "Ingles"));
+        diccionarioEspañol.ingresarPalabra(new Palabra("saludo", "accion y efecto de saludar", "Español"));
+        diccionarioEspañol.ingresarPalabra(new Palabra("abeja", "animal","Español"));
+
+        diccionarioEspañol.ingresarPalabra (new Palabra("corazon", "organo del cuerpo encargado de bombear sangre","español"));
+        diccionarioEspañol.buscarPalabra("Programacion");
+        diccionarioEspañol.removerPalabra("corazon");
+        System.out.println(" El diccionario despues de remover");
+        diccionarioEspañol.imprimirPalabras();*/
+
+        Diccionario diccionarioIngles= new Diccionario("Ingles");
+        diccionarioIngles.ingresarPalabra(new PalabraNoEsp("Love","Loveeee","ingles","lov"));
+        diccionarioIngles.ingresarPalabra(new PalabraNoEsp("Bee","animal","ingles","bi"));
+        diccionarioIngles.ingresarPalabra(new PalabraNoEsp("Greeting","he action of giving a sing of welcome","ingles","gritin"));
+        diccionarioIngles.ingresarPalabra(new PalabraNoEsp("Apple","fruit","ingles","fruit"));
+        diccionarioIngles.buscarPalabra("love");
+        diccionarioIngles. imprimirPalabras();
+
+    }
+}
+
+
+    /*
 
         public static void main(String[] args) {
             Employee juan = new Employee("Juan", 123456, 31);
@@ -31,7 +59,7 @@ public class App {
             AppCompany.reportEmployeeData(employeeLessThanThirty); //el metodo imprime, y como es de la clase no debo instanciar//
             System.out.println("El nÃºmero de empleados en la empresa es: " + appCompany.countEmployees(employees) );
         }
-    }
+    }*/
 
 
 
