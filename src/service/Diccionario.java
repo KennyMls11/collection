@@ -7,7 +7,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 public class Diccionario {
-    private TreeSet<Palabra> palabras; //coleccion de palabras//
+    private Set<Palabra> palabras; //coleccion de palabras//
     private String idioma;
 
     public Diccionario(String idioma) {

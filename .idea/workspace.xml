@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b5ac076-4761-4367-86c7-028fe9952bd6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Palabra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/PalabraNoEsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/Diccionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/Biblioteca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/Diccionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/Diccionario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,19 +81,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/service/Diccionario.java</url>
-          <line>32</line>
-          <properties class="service.Diccionario" method="buscarPalabra">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/App.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="5" />
+          <line>66</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
