@@ -1,14 +1,15 @@
 import domain.Employee;
+import domain.Libro;
 import domain.Palabra;
 import domain.PalabraNoEsp;
 import service.AppCompany;
+import service.Biblioteca;
 import service.Diccionario;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class App {
-    public static void main(String[] args) {
+
         /*Diccionario diccionarioEspañol= new Diccionario("español");
         diccionarioEspañol.ingresarPalabra(new Palabra("Programacion", "accion y efecto de programar", "Ingles"));
         diccionarioEspañol.ingresarPalabra(new Palabra("saludo", "accion y efecto de saludar", "Español"));
@@ -20,7 +21,7 @@ public class App {
         System.out.println(" El diccionario despues de remover");
         diccionarioEspañol.imprimirPalabras();*/
 
-        Diccionario diccionarioIngles= new Diccionario("Ingles");
+        /*Diccionario diccionarioIngles= new Diccionario("Ingles");
         diccionarioIngles.ingresarPalabra(new PalabraNoEsp("Love","Loveeee","ingles","lov"));
         diccionarioIngles.ingresarPalabra(new PalabraNoEsp("Bee","animal","ingles","bi"));
         diccionarioIngles.ingresarPalabra(new PalabraNoEsp("Greeting","he action of giving a sing of welcome","ingles","gritin"));
@@ -60,6 +61,18 @@ public class App {
             System.out.println("El nÃºmero de empleados en la empresa es: " + appCompany.countEmployees(employees) );
         }
     }*/
+        public class App {
+            public static void main(String[] args) {
 
+                Biblioteca bibliotecaDeCali= new Biblioteca();
+                bibliotecaDeCali. registrarLibro(new Libro("Harry Potter", "JK Rowling", 2001));
+                bibliotecaDeCali. registrarLibro(new Libro("el poder del ahora", "Ekhar tholle", 2017));
+                bibliotecaDeCali. imprimirLibro();
+                bibliotecaDeCali. etiquetarLibros();
+                bibliotecaDeCali. imprimirLibro();
+                System.out.println(bibliotecaDeCali.buscarLibro("Harry Potter"));
+            }
+
+            }
 
 
