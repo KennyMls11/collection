@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b5ac076-4761-4367-86c7-028fe9952bd6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/domain/Libro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/Biblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Util/NombreSolicitudComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Util/PrioridadSolicitudComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Util/StringLengthComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/Solicitud.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/Diccionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/Diccionario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,8 +84,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/App.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="1" />
+          <line>78</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
