@@ -1,13 +1,14 @@
-import domain.Employee;
-import domain.Libro;
-import domain.Palabra;
-import domain.PalabraNoEsp;
+import Util.NombreSolicitudComparator;
+import Util.PrioridadSolicitudComparator;
+import domain.*;
 import service.AppCompany;
 import service.Biblioteca;
 import service.Diccionario;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.PriorityQueue;
+import java.util.Queue;
 
 
         /*Diccionario diccionarioEspañol= new Diccionario("español");
@@ -64,15 +65,28 @@ import java.util.List;
         public class App {
             public static void main(String[] args) {
 
-                Biblioteca bibliotecaDeCali= new Biblioteca();
+                /*Biblioteca bibliotecaDeCali= new Biblioteca();
                 bibliotecaDeCali. registrarLibro(new Libro("Harry Potter", "JK Rowling", 2001));
                 bibliotecaDeCali. registrarLibro(new Libro("el poder del ahora", "Ekhar tholle", 2017));
                 bibliotecaDeCali. imprimirLibro();
                 bibliotecaDeCali. etiquetarLibros();
                 bibliotecaDeCali. imprimirLibro();
-                System.out.println(bibliotecaDeCali.buscarLibro("Harry Potter"));
+                System.out.println(bibliotecaDeCali.buscarLibro("Harry Potter"));*/
+
+
+
+                //
+                /*Queue<Solicitud> solicitudes= new PriorityQueue<>(new NombreSolicitudComparator());
+                solicitudes.add(new Solicitud(5,"Brenda"));
+                solicitudes.add(new Solicitud(2,"Mariana"));
+                solicitudes.add(new Solicitud(0,"Luciana"));
+                solicitudes.add(new Solicitud(1,"Kenny"));
+
+
+                while (solicitudes.size() > 0) {
+                    System.out.println(solicitudes.poll());*/
+                }
             }
 
-            }
 
 
