@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b5ac076-4761-4367-86c7-028fe9952bd6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Util/NombreSolicitudComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Util/PrioridadSolicitudComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Util/StringLengthComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Solicitud.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/TriageComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/TriageComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/Medico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Medico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Paciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/Urgencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Urgencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/GestorUrgencias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/GestorUrgencias.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
