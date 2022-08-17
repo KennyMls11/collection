@@ -1,14 +1,77 @@
-import Util.NombreSolicitudComparator;
-import Util.PrioridadSolicitudComparator;
-import domain.*;
-import service.AppCompany;
-import service.Biblioteca;
-import service.Diccionario;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.PriorityQueue;
-import java.util.Queue;
+import domain.*;
+import service.GestorUrgencias;
+
+import java.time.Instant;
+import java.time.LocalDateTime;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+
+public class App {
+    public static final void main(String[] args) {
+
+                Map<Integer, String> entries = new HashMap<>();
+                entries.put(0, "Valor 1");
+                entries.put(1, "Valor 2");
+                entries.put(2, "Valor 3");
+                entries.put(1, "Valor 4");
+                entries.put(0, "Valor 5");
+                entries.put(null, "Valor nulo");
+                entries.put(5, null);
+                entries.put(null, null);
+                entries.put(6, null);
+                entries.put(0, "Nuevo valor");
+                entries.put(0, "Valor definitivo para 0");
+
+                System.out.println(entries);
+                System.out.println("NÃºmero de entradas en el mapa: " + entries.size());
+                System.out.println("Reemplazando: " + entries.replace(0, "Nuevo valor para cero"));
+                System.out.println("Reemplazando con valor anterior: " + entries.replace(0, "Nuevo valor para cero", "Nuevo valor para cero"));
+
+                System.out.println("Objeto removido: " + entries.remove(2));
+                System.out.println("Objeto que corresponde a la llave: " + entries.get(0));
+
+                System.out.println(entries);
+
+                for (Map.Entry<Integer, String> entry : entries.entrySet()) {
+                    if (entry.getValue() != null && entry.getValue().equals("Valor 4")) {
+                        System.out.println(entry.getKey());
+                    }
+                }
+            }
+        }
+
+
+
+
+
+
+        /*Persona medico= new Medico(TipoIdentificacion.DNI, "236785229","Pepito","Perez",
+                LocalDateTime.of(1993,1,7,0,0),12345);
+
+        Persona juan= new Paciente(TipoIdentificacion.PASAPORTE, "AS611","juan", "furcade",
+                LocalDateTime.of(1994,06,7,1,0),"Estudiante","Sura");
+
+        Persona fabiola= new Paciente(TipoIdentificacion.PASAPORTE, "AS6771","Fabi", "soto",
+                LocalDateTime.of(1800,1,6,8,3),"Cocinera","Hosp");
+
+        GestorUrgencias gestorUrgencias= new GestorUrgencias(medico);
+        gestorUrgencias. registrarUrgencia(juan, "cefalea", ClasificacionTriage.BLANCO);
+        gestorUrgencias. registrarUrgencia(fabiola, "FX DE CRANEO", ClasificacionTriage.AZUL);
+        gestorUrgencias. imprimirUrgencias();
+
+        System.out.println(gestorUrgencias.asignarUrgencia());
+        gestorUrgencias. imprimirUrgencias();
+
+
+    }
+
+
+
+}
+
+
 
 
         /*Diccionario diccionarioEspañol= new Diccionario("español");
@@ -62,8 +125,7 @@ import java.util.Queue;
             System.out.println("El nÃºmero de empleados en la empresa es: " + appCompany.countEmployees(employees) );
         }
     }*/
-        public class App {
-            public static void main(String[] args) {
+
 
                 /*Biblioteca bibliotecaDeCali= new Biblioteca();
                 bibliotecaDeCali. registrarLibro(new Libro("Harry Potter", "JK Rowling", 2001));
@@ -85,8 +147,8 @@ import java.util.Queue;
 
                 while (solicitudes.size() > 0) {
                     System.out.println(solicitudes.poll());*/
-                }
-            }
+
+
 
 
 
