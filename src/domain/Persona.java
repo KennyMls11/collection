@@ -3,13 +3,13 @@ package domain;
 import java.time.LocalDateTime;
 
 public class Persona {
-    protected String tipoId;
+    protected TipoIdentificacion tipoId ;
     protected String numId;
     protected String nombre;
     protected String apellido;
     protected LocalDateTime fechaNac;
 
-    public Persona(String tipoId, String numId, String nombre, String apellido, LocalDateTime fechaNac) {
+    public Persona(TipoIdentificacion tipoId, String numId, String nombre, String apellido, LocalDateTime fechaNac) {
         this.tipoId = tipoId;
         this.numId = numId;
         this.nombre = nombre;
@@ -17,7 +17,7 @@ public class Persona {
         this.fechaNac = fechaNac;
     }
 
-    public String getTipoId() {
+    public TipoIdentificacion getTipoId() {
         return tipoId;
     }
 
